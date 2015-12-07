@@ -1,0 +1,158 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x:hidden;
+}
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+/* Modification of deault Bootstrap Styles */
+.col-md-2-5 {
+	width: 20%;
+}
+
+.full-page {
+	height: 100%;
+	width: 100%;
+}
+.page {
+	background-color: #ccc;
+}
+/* About Us */
+#aboutus {
+	padding-bottom: 100px;
+}
+
+/* Gallery Styles */
+#gallery {
+
+}
+
+/* Services Styles */
+#service {
+	padding-bottom: 100px;
+}
+@media (min-width: 992px) {
+	#service .col-md-3 {
+		width: 20%;
+	}
+}
+.services {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.services__item {
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	text-align: center;
+}
+
+.services__feature-list {
+	text-align: left;
+}
+
+.services__action {
+	color: inherit;
+	border: none;
+	background: none;
+}
+
+.services__action:focus {
+	outline: none;
+}
+
+.services--tenzin .services__item {
+	margin: 1em;
+	padding: 2em 2.5em;
+	text-align: left;
+	color: #262b38;
+	background: #EEF0F3;
+	border-top: 5px solid #EEF0F3;
+	-webkit-transition: border-color 0.5s;
+	transition: border-color 0.5s;
+}
+
+.services--tenzin .services__item:hover {
+	border-color: #3e62e0;
+}
+
+.services--tenzin .services__title {
+	font-size: 1em;
+	margin: 0 0 1em;
+}
+
+.services--tenzin .services__price {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0.5em 0 0.75em;
+	border-top: 3px solid rgba(139, 144, 157, 0.18);
+}
+
+.services--tenzin .services__currency {
+	font-size: 0.5em;
+	vertical-align: super;
+}
+
+.services--tenzin .services__sentence {
+	font-weight: bold;
+	padding: 0 0 0.5em;
+	color: #9CA0A9;
+	border-bottom: 3px solid rgba(139, 144, 157, 0.18);
+}
+
+.services--tenzin .services__feature-list {
+	font-size: 0.85em;
+	font-style: italic;
+	margin: 0;
+	padding: 0.25em 0 2.5em;
+	list-style: none;
+	text-align: right;
+	color: #8b909d;
+}
+
+.services--tenzin .services__action {
+	font-weight: bold;
+	margin-top: auto;
+	padding: 1em 2em;
+	color: #fff;
+	border-radius: 30px;
+	background: #3e62e0;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+
+.services--tenzin .services__action:hover,
+.services--tenzin .services__action:focus {
+	background-color: #3b5ac5;
+}
+
+/* Contact Us */
+#contact {
+	padding-bottom: 100px
+}
+#contact form {
+	padding-bottom: 100px;
+}
+
+/* Footer */
+.footer {
+  	bottom: 0;
+  	width: 100%;
+  	/* Set the fixed height of the footer here */
+  	background-color: #f5f5f5;
+}
