@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/gallery.css" />
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,42 +23,86 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy = "scroll" data-target = ".navbar">
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
+    <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-responsive"style="height:100%"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">HOME</a></li>
             <li><a href="#aboutus">About Us</a></li>
             <li><a href="#service">Services</a></li>
-            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#gallery">PROJECTS</a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
+        </div>  </nav>
+    <section id="home" class="full-page page">
+      <div id="central-header" class="col-md-12 text-center">
+          <h1>projectname</h1>
+          <a class="btn btn-primary" style="margin-top:2em;padding-left:2em;padding-right:2em;background-color:#fff;border-radius:0;color:#000;border:0">DOWNLOAD BROCHURE</a>
         </div>
-      </div>
-    </nav>
-    <section id="home" class="full-page page"></section>
+    </section>
     <section id="aboutus" class="">
       <div class="container">
-        <div class="page-header text-header">
-          <h1>About Us</h1>
+        <div class="col-md-8">
+          <div class="page-header text-center col-md-12">
+            <h1>About Us</h1>
+          </div>
+          <div class="col-md-12">
+              <h2 style="text-align:center; padding:1em">"Lorem ipsum dolor sit amet, consectetur adipisicing elit."</h2> 
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
         </div>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="stat col-md-4">
+            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                <div class="milestone-counter">
+                    <span class="stat-count highlight">122</span>
+                    <div class="milestone-details">Happy Customers</div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                <div class="milestone-counter">
+                    <span class="stat-count highlight">1128</span>
+                    <div class="milestone-details">Ordered Coffee's</div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                <div class="milestone-counter">
+                    <span class="stat-count highlight">14</span>
+                    <div class="milestone-details">Awards Win</div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
+                <div class="milestone-counter">
+                    <span class="stat-count highlight">232</span>
+                    <div class="milestone-details">Photos Taken</div>
+                </div>
+            </div>
+            </div>
+        
+        
+        
+
       </div>
     </section>
+    <div class="jumbotron" style="background-image:url(./images/quote1.jpg);background-attachment:fixed;background-color:transparent;background-size:cover;height:40%;margin:0">
+      <div class="container">
+        <h2>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua."</h2>
+      </div>
+    </div>
     <section id="service" class="page">
       <div class="container">
         <div class="row">
@@ -135,13 +180,224 @@
 
       </div>
     </section>
-    <section id="gallery" class="">
+    <div class="jumbotron" style="background-image:url(./images/quote1.jpg);background-attachment:fixed;background-color:transparent;background-size:cover;height:40%;margin:0">
+      <div class="container">
+        <h2>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua."</h2>
+      </div>
+    </div>
+    <section id="gallery">
+      <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+              <div class="page-header text-center">
+                <h1>Our Projects</h1>
+              </div>
+              <p style="padding:3em">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+
+          <div class="col-md-12" style="margin-bottom:3em">
+            <div class="col-md-3">
+              <div class="page-header text-center" style="padding:1em">
+                <h2>Flagship Projects</h2>
+              </div>
+            </div>
+            <figure class="effect-sadie col-md-3" data-toggle="modal"
+        data-target="#fsModal">
+              <img src="images/12.jpg" alt="img12" class="img-responsive" />
+              <figcaption>
+                <div>
+                  <h2>Shamiana Restaurant</h2>
+                  <p>Knowledge Village, Dubai</p>
+                </div>
+                <a href="#">View more</a>
+              </figcaption>     
+            </figure>
+            <figure class="effect-sadie col-md-3">
+              <img src="images/1.jpg" alt="img1" class="img-responsive" />
+              <figcaption>
+                <div>
+                  <h2>ADBC</h2>
+                  <p>sadie likes to play with crayons and pencils</p>
+                </div>
+                <a href="#">View more</a>
+              </figcaption>     
+            </figure>
+            <figure class="effect-sadie col-md-3">
+              <img src="images/1.jpg" alt="img1" class="img-responsive" />
+              <figcaption>
+                <div>
+                  <h2>ADCB</h2>
+                  <p>sadie likes to play with crayons and pencils</p>
+                </div>
+                <a href="#">View more</a>
+              </figcaption>     
+            </figure>
+          </div>
+          
+          <div class="col-md-12">
+            <div class="col-md-3">
+              <div class="page-header text-center" style="padding:3em">
+                <h2>Completed Projects</h2>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <figure class="effect-sadie col-md-4">
+                <img src="images/12.jpg" alt="img12" class="img-responsive" />
+                <figcaption>
+                  <div>
+                    <h2>ADCB</h2>
+                    <p>sadie likes to play with crayons and pencils</p>
+                  </div>
+                  <a href="#">View more</a>
+                </figcaption>     
+              </figure>
+              <figure class="effect-sadie col-md-4">
+                <img src="images/1.jpg" alt="img1" class="img-responsive" />
+                <figcaption>
+                  <div>
+                    <h2>ADBC</h2>
+                    <p>sadie likes to play with crayons and pencils</p>
+                  </div>
+                  <a href="#">View more</a>
+                </figcaption>     
+              </figure>
+            
+              <figure class="effect-sadie col-md-4">
+                <img src="images/1.jpg" alt="img1" class="img-responsive" />
+                <figcaption>
+                  <div>
+                    <h2>ADCB</h2>
+                    <p>sadie likes to play with crayons and pencils</p>
+                  </div>
+                  <a href="#">View more</a>
+                </figcaption>     
+              </figure>
+              <figure class="effect-sadie col-md-4">
+                <img src="images/12.jpg" alt="img12" class="img-responsive" />
+                <figcaption>
+                  <div>
+                    <h2>ADCB</h2>
+                    <p>sadie likes to play with crayons and pencils</p>
+                  </div>
+                  <a href="#">View more</a>
+                </figcaption>     
+              </figure>
+              <figure class="effect-sadie col-md-4">
+                <img src="images/1.jpg" alt="img1" class="img-responsive" />
+                <figcaption>
+                  <div>
+                    <h2>ADBC</h2>
+                    <p>sadie likes to play with crayons and pencils</p>
+                  </div>
+                  <a href="#">View more</a>
+                </figcaption>     
+              </figure>
+            
+              <figure class="effect-sadie col-md-4">
+                <img src="images/1.jpg" alt="img1" class="img-responsive" />
+                <figcaption>
+                  <div>
+                    <h2>ADCB</h2>
+                    <p>sadie likes to play with crayons and pencils</p>
+                  </div>
+                  <a href="#">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
+          </div>
+        </div>
+    </section>
+    <div class="jumbotron" style="background-image:url(./images/quote1.jpg);background-attachment:fixed;background-color:transparent;background-size:cover;height:40%;margin:0">
+      <div class="container">
+        <h2>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua."</h2>
+      </div>
+    </div>
+    <section id="contact" class="page">
       <div class="container">
         <div class="row">
           <div class="page-header text-center">
-            <h1>Gallery</h1>
+            <h1>Contact Us</h1>
+          </div>
+          <div class="col-lg-6">
+            <form role="form" action="" method="post" >      
+              <span class="input input--kaede">
+                <input class="input__field input__field--kaede" type="text" id="input-35">
+                <label class="input__label input__label--kaede" for="input-35">
+                  <span class="input__label-content input__label-content--kaede">First Name</span>
+                </label>
+              </span>   
+              <span class="input input--kaede">
+                <input class="input__field input__field--kaede" type="text" id="input-36">
+                <label class="input__label input__label--kaede" for="input-36">
+                  <span class="input__label-content input__label-content--kaede">Email ID</span>
+                </label>
+              </span>
+              <span class="input input--kaede" style="height:10em">
+                <textarea class="input__field input__field--kaede" type="text" id="input-37" rows="10"></textarea>
+                <label class="input__label input__label--kaede" for="input-37">
+                  <span class="input__label-content input__label-content--kaede">Message</span>
+                </label>
+              </span>
+              <span class="input input--kaede">
+                <input class="input__field input__field--kaede" type="text" id="input-38">
+                <label class="input__label input__label--kaede" for="input-38">
+                  <span class="input__label-content input__label-content--kaede">Simple Spam Checker: 3 + 4 = ?</span>
+                </label>
+              </span>
+              <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right" />
+            </form>
+          </div>
+          <hr class="featurette-divider hidden-lg" />
+          <div class="col-lg-5 col-md-push-1">
+
+            <div id="bcbg">
+ 
+    <p class="line1">Add Your Name</p>
+    <p class="line2">Enter your job title</p>
+    
+    <div class="contact">yourname@example.com<br/>
+      www.example.com<br/>
+    ###-###-####
+    </div>
+    <div class="logo"></div>
+
+</div>
+          </div>
+          <div class="col-lg-5 col-md-push-1">
+            <div id="map"  style="height:200px"></div>
           </div>
         </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <h4 class="text-muted text-center">&copy Pennacleid. All Rights Reserved. </h4>
+      </div>
+    </footer>
+    <!-- modal -->
+<div id="fsModal"
+     class="modal"
+     tabindex="-1"
+     role="dialog"
+     aria-labelledby="myModalLabel"
+     aria-hidden="true">
+
+  <!-- dialog -->
+  <div class="modal-dialog">
+
+    <!-- content -->
+    <div class="modal-content">
+      
+      <!-- body -->
+      <div class="modal-body">
         <div id="dg-container" class="dg-container col-xs-12 col-md-12">
           <div class="dg-wrapper">
             <a><img src="images/1.jpg" alt="image01"><div>http://www.colazionedamichy.it/</div></a>
@@ -161,43 +417,16 @@
             <span class="dg-prev">&lt;</span>
             <span class="dg-next">&gt;</span>
           </nav>
-        </div>
       </div>
-    </section>
-    <section id="contact" class="page">
-      <div class="container">
-      <div class="row">
-        <div class="page-header text-center">
-          <h1>Contact Us</h1>
-        </div>
-        <div class="col-lg-6">
-          <form role="form" action="" method="post" >          
-            <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
-            <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
-            <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-            <input type="text" class="form-control" name="InputReal" id="InputReal" required>
-            <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
-          </form>
-        </div>
-        <hr class="featurette-divider hidden-lg">
-          <div class="col-lg-5 col-md-push-1">
-            <address>
-            <h3>Office Location</h3>
-              Phone: XXX-XXX-XXXX<br>
-              Fax: XXX-XXX-YYYY</p>
-            </address>
-          </div>
-          <div class="col-lg-5 col-md-push-1">
-            <div id="map"  style="height:200px"></div>
-          </div>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <h4 class="text-muted text-center">&copy Pennacleid. All Rights Reserved. </h4>
-      </div>
-    </footer>
-    
+      <!-- body -->
+
+    </div>
+    <!-- content -->
+
+  </div>
+  <!-- dialog -->
+
+</div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
