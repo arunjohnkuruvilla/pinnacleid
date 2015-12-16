@@ -533,9 +533,7 @@
           </div>
     </section>
     <footer class="footer" style="background-color:#252525;height:400px;position:fixed;bottom:0;z-index:-1">
-      <div class="container">
-        <h4 class="text-muted text-center">&copy Pennacleid. All Rights Reserved. </h4>
-      </div>
+        <div class="col-md-4 col-md-offset-5" style="position:fixed;bottom:0;padding-bottom:10em;color:#fff"><h1>PROJECT LOGO</h1></div>
     </footer>
     <!-- modal -->
 <div id="fsModal"
